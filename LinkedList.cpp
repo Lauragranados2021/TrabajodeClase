@@ -53,7 +53,6 @@ void LinkedList<T>::addNodeBeforeTo(Node<T> *before, T info) {
 if(before==head){
     node->next=head;
     head=node;
-
 }
 else{
     Node<T>* act=head;
